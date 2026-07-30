@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/feirafood-ia/",
+  base: "/IaFeira/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
